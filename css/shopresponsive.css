@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .filter-toggle {
+        display: block;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+
+    .filter-section {
+        width: 100%;
+        display: none;
+    }
+
+    .filter-section.active {
+        display: block;
+    }
+
+    .products-section {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}
+
